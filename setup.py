@@ -22,11 +22,11 @@ setup(
     
     python_requires=">=3.10", 
     install_requires=[
-        "torch>=2.2,<3",      
-        "torchvision>=0.17",
+        "torch>=2.5.0",      
+        "torchvision>=0.20.0",
         "transformers>=4.41,<5",
         "accelerate>=0.34,<2",
-        "diffusers>=0.21.0",
+        "diffusers>=0.31.0",
         "scikit-learn>=1.6.0,<2",
         "hydra-core>=1.3.2",
         "mlflow>=2.7.1",

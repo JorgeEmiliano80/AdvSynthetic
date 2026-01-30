@@ -1,0 +1,15 @@
+pipeline:
+  name: "AdvSynthetic-v1"
+  output_dir: "./outputs"
+
+model:
+  id: "runawayml/stable-diffusion-v1-5"
+  steps: 20
+  guidance_scale: 7.5
+
+selection:
+  uncertainty_threshold: 0.8
+  top_k_percent: 0.20
+
+generation:
+  variants_per_image: 2
